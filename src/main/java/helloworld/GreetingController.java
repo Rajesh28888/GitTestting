@@ -18,6 +18,7 @@ public class GreetingController {
     
     @RequestMapping("/greeting")
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
+System.out.println("123");
 	System.out.println("New line added");
     	System.out.println("GreetingController.greeting() - applicationName: " + applicationName);
         return new Greeting(counter.incrementAndGet(),

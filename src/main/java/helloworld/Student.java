@@ -5,7 +5,7 @@ class Student
 	
 	public Student(int rollNo,String name)
 	{
-		System.out.println("Constructor called.");
+		//System.out.println("Constructor called.");
 		this.rollNo = rollNo;
 		this.name = name;
 	}
